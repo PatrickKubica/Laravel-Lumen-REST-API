@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<ruleset name="Laravel_Lumen">
+  <rule ref="PSR2"/>
+  <arg value="p"/>
+  <file>app</file>
+  <file>routes</file>
+  <file>tests</file>
+</ruleset>
