@@ -16,10 +16,9 @@ $router->get('/', function () use ($router) {
 });
 
 // Add routes for Products
-$router->group(['prefix' => 'api/v1'], function($router)
-{
-    $router->post('product','ProductController@createProduct');
-    $router->put('product/{id}','ProductController@updateProduct'); 	 
-    $router->delete('product/{id}','ProductController@deleteProduct');
-    $router->get('product','ProductController@index');
+$router->group(['prefix' => 'api/v1'], function ($router) {
+    $router->post('product', 'ProductController@createProduct');
+    $router->put('product/{id}', 'ProductController@updateProduct');
+    $router->delete('product/{id}', 'ProductController@deleteProduct');
+    $router->get('product', 'ProductController@index');
 });

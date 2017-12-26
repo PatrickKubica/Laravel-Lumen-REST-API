@@ -25,10 +25,10 @@ class ProductController extends Controller
 
         $product->save();
         return response()->json($product);
-    }  
+    }
 
     public function deleteProduct($id)
-    {  
+    {
         $product = Product::find($id);
         $product->delete();
 
