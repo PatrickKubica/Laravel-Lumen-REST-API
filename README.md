@@ -7,7 +7,7 @@ This API enables you to make GET, POST, PUT and DELETE requests for products to 
 I am using [Postman](https://www.getpostman.com/) for testing this API during development, but of couse you can also do direct curl calls. To get some example requests please check out the unit test `tests\ProductTest.php`.
 
 ## Installation
-Too install this project please run
+To install this project please run
 ```bash
 composer install
 ```
