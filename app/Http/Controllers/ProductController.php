@@ -32,7 +32,7 @@ class ProductController extends Controller
         $product = Product::find($id);
         $product->delete();
 
-        return response()->json('Product was correctly deleted');
+        return response()->json('Product with id ' . $id . ' was correctly deleted');
     }
 
     public function index()

@@ -17,3 +17,12 @@ $factory->define(App\User::class, function (Faker\Generator $faker) {
         'email' => $faker->email,
     ];
 });
+
+$factory->define(App\Product::class, function () {
+    return [
+        'name' => 'Factory Product',
+        'sku' => 99999,
+        'description' => 'Factory description',
+        'available' => true
+    ];
+});
