@@ -1,10 +1,10 @@
-<?php 
+<?php
 
 namespace App;
  
 use Illuminate\Database\Eloquent\Model;
  
 class Product extends Model
-{ 
-    protected $fillable = ['name', 'sku', 'description', 'available'];	 
+{
+    protected $fillable = ['name', 'sku', 'description', 'available'];
 }
